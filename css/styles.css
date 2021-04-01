@@ -1,0 +1,42 @@
+header {
+    border: #BFBFBF solid 1px;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+.navitems {
+    display: flex;
+    
+    
+    
+}
+.navitem {
+    margin-right: 30px;
+    color: #000000;
+    border-left: solid gray 1px;
+    padding-left: 10px;   
+}
+.navitem:hover{
+    color: red;
+    font-weight: bold;
+}
+.topmenu {
+    display: flex ;
+    padding-top: 70px;
+    
+}
+.bluemaintext {
+    color: #0D65F8;
+    font-size: 65px;
+    margin-right: 30px;
+    margin-top: 40px;
+}
